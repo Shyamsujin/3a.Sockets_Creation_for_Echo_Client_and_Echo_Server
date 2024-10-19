@@ -24,7 +24,7 @@ while True:
 
 ## Server
 ```
-mport socket
+import socket
 s=socket.socket()
 s.bind(('localhost',8000))
 s.listen(5)
